@@ -1,0 +1,82 @@
+.true {
+  color: rgb(120, 202, 120);
+}
+
+.false {
+  color: rgb(219, 82, 75);
+}
+
+.todo_list .todo_item:not(:first-child) {
+  margin: 14px 0px;
+}
+
+.todo_item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo_item button:last-child{
+  margin-left: 2%;
+}
+
+.todo_item-row {
+  width: 68%;
+  font-size: 18px;
+  padding: 2px 6px;
+  cursor: pointer;
+}
+
+.enter {
+  width: 95%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.todo_item button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(219, 82, 75);
+  padding: 3px 6px;
+  font-size: 14px;
+}
+
+.doneundone {
+  margin-right: 5%;
+}
+
+ button.delete, button.editsave {
+  background-color: rgb(45, 120, 184);
+}
+
+button.true.doneundone {
+  background-color: rgb(120, 202, 120);;
+}
+
+button.false.doneundone {
+  background-color: rgb(219, 82, 75);
+}
+
+.input_wrapper {
+  width: 90%;
+}
+
+.input_editsave {
+  width: 100%;
+  height: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1.5px solid rgb(154, 154, 154);
+  box-shadow: none;
+  color: rgb(68, 68, 68);
+  font-size: 16px
+}
+
+.input_editsave:focus {
+  outline: none;
+  border-radius: 5px;
+  border: 1.5px solid rgb(99, 174, 235);
+  box-shadow: 0px 0px 10px 0px rgb(213, 234, 250);
+}
